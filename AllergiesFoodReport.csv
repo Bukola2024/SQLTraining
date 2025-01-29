@@ -1,0 +1,20 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,SYSTEM,DESCRIPTION,TYPE,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
+1990-10-09,,9eedeb5a-e86d-ddd6-f928-ae031b593968,ccf940a7-5f03-7466-f62b-a3994c5a5694,102263004,SNOMED-CT,Eggs (edible) (substance),allergy,food,247472004,Wheal (finding),MODERATE,,,
+1990-10-09,,9eedeb5a-e86d-ddd6-f928-ae031b593968,ccf940a7-5f03-7466-f62b-a3994c5a5694,412071004,SNOMED-CT,Wheat (substance),allergy,food,62315008,Diarrhea (finding),MODERATE,271807003,Eruption of skin (disorder),MODERATE
+1990-10-09,,9eedeb5a-e86d-ddd6-f928-ae031b593968,ccf940a7-5f03-7466-f62b-a3994c5a5694,735971005,SNOMED-CT,Fish (substance),allergy,food,271807003,Eruption of skin (disorder),MILD,,,
+2000-10-17,,8ff88069-572b-a60a-a119-e3e74fe41b71,ca34d75e-4f41-f93b-087e-05fd1dd1a129,102263004,SNOMED-CT,Eggs (edible) (substance),allergy,food,247472004,Wheal (finding),MODERATE,,,
+1969-12-07,,d4d35db8-ac84-b080-95db-cd4efe0d4fe3,51eb046e-6375-d9d7-cf15-ce9676859fb6,3718001,SNOMED-CT,Cow's milk (substance),allergy,food,247472004,Wheal (finding),MILD,,,
+1969-12-07,,d4d35db8-ac84-b080-95db-cd4efe0d4fe3,51eb046e-6375-d9d7-cf15-ce9676859fb6,442571000124108,SNOMED-CT,Tree nut (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,247472004,Wheal (finding),MODERATE
+1996-06-28,,7935fd9e-34bb-b8ba-c8bb-a613a89351cf,09e1fc9d-416c-50bf-11a9-99241a36f728,735029006,SNOMED-CT,Shellfish (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,247472004,Wheal (finding),MILD
+2019-03-26,,38d1c87e-1aa7-f721-ffd2-1372f96307de,47f6ec72-e004-eea0-f97e-330139b67716,762952008,SNOMED-CT,Peanut (substance),allergy,food,247472004,Wheal (finding),MODERATE,402387002,Allergic angioedema (disorder),MODERATE
+1981-01-30,,da3d8f26-d819-bb80-4540-a5f4a2fcfb2e,0917735c-f6a6-0a4b-605a-ee0282e7b325,735971005,SNOMED-CT,Fish (substance),allergy,food,267036007,Dyspnea (finding),MODERATE,271807003,Eruption of skin (disorder),MILD
+1971-02-25,,abe2cf92-3cfc-8116-05da-4909f51e2e01,74733bbf-4319-412d-940c-90313bb080da,3718001,SNOMED-CT,Cow's milk (substance),allergy,food,402387002,Allergic angioedema (disorder),MODERATE,62315008,Diarrhea (finding),MILD
+1971-02-25,,abe2cf92-3cfc-8116-05da-4909f51e2e01,74733bbf-4319-412d-940c-90313bb080da,735029006,SNOMED-CT,Shellfish (substance),allergy,food,402387002,Allergic angioedema (disorder),MODERATE,422587007,Nausea (finding),MODERATE
+2023-08-07,,6c7004d6-b1a3-f74f-e86a-ba1cf9983953,5b098a95-e43b-1692-4e5a-8f923c3c54cc,3718001,SNOMED-CT,Cow's milk (substance),allergy,food,62315008,Diarrhea (finding),MILD,,,
+2023-08-07,,6c7004d6-b1a3-f74f-e86a-ba1cf9983953,5b098a95-e43b-1692-4e5a-8f923c3c54cc,412071004,SNOMED-CT,Wheat (substance),allergy,food,62315008,Diarrhea (finding),MODERATE,271807003,Eruption of skin (disorder),MODERATE
+2023-08-07,,6c7004d6-b1a3-f74f-e86a-ba1cf9983953,5b098a95-e43b-1692-4e5a-8f923c3c54cc,735029006,SNOMED-CT,Shellfish (substance),allergy,food,271807003,Eruption of skin (disorder),MODERATE,49727002,Cough (finding),MILD
+2023-08-07,,6c7004d6-b1a3-f74f-e86a-ba1cf9983953,5b098a95-e43b-1692-4e5a-8f923c3c54cc,762952008,SNOMED-CT,Peanut (substance),allergy,food,402387002,Allergic angioedema (disorder),MODERATE,267036007,Dyspnea (finding),MILD
+2021-10-26,,958b6aba-fb87-2216-52c7-d86d67e45161,9fb22d52-ddcd-fd8d-0259-d7123382933e,735029006,SNOMED-CT,Shellfish (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,271807003,Eruption of skin (disorder),MODERATE
+2022-05-30,,e483044b-ac3d-dc7b-9179-ecfb87dbd273,7567503f-bb71-cf99-4057-20bbda0a7909,102263004,SNOMED-CT,Eggs (edible) (substance),allergy,food,,,,,,
+1954-09-17,,466df3cc-4a2e-70a8-5ebb-29f1ce64763f,c39d2bf4-cd82-100c-f5a0-86c80b00967d,3718001,SNOMED-CT,Cow's milk (substance),allergy,food,247472004,Wheal (finding),MILD,,,
+1954-09-17,,466df3cc-4a2e-70a8-5ebb-29f1ce64763f,c39d2bf4-cd82-100c-f5a0-86c80b00967d,735971005,SNOMED-CT,Fish (substance),allergy,food,300359004,Finding of vomiting (finding),MILD,271807003,Eruption of skin (disorder),MILD
