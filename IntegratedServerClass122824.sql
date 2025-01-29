@@ -1,0 +1,2 @@
+select @@servername
+Use EmadeDev
