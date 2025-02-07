@@ -1,10 +1,7 @@
+Use EmadeDev
 
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
 -- =============================================
--- Developer:		Bukola Popoola
+-- Developer:	Bukola Popoola
 -- Create date: 01/25/2025
 -- Description:	Initial Process To PullAllergyData
 --01/25/25: Adding Parameter @Category to The Stored Procedure Using the Category field
@@ -12,8 +9,8 @@ GO
 CREATE OR ALTER PROCEDURE spPullAllergyData 
 	-- Add the parameters for the stored procedure here
 	(@Category VARCHAR(50), 
-	@Startyear DATE),
-Set @Startyear = year (Start)
+	@Startyear DATE)
+--Set @Startyear = LEFT(Start,4)
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -39,6 +36,9 @@ year (Start) as Startyear
       ,[SEVERITY2]
   FROM [EmadeDev].[dbo].[Allergies]
 WHERE Category = @Category
-AND (year(Start)) = @Startyear
+AND LEFT(Start,4) = @Startyear
 END
 GO
+
+Execute [dbo].[spPullAllergyData] @Category = 'food', @Startyear = '1990'
+Execute [dbo].[spPullAllergyData] 'food', '1990'
